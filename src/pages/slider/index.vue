@@ -25,8 +25,14 @@
 export default {
   data() {
     return {
-      images: [],
-      slideWidth: screen.width + 'px'
+      images: [
+        'http://advent.webtm.ru/slider/blooming_rose-wallpaper-1920x1080.jpg',
+        'http://advent.webtm.ru/slider/french_alps-wallpaper-1600x900.jpg',
+        'http://advent.webtm.ru/slider/single_tree_mist_over_lake-wallpaper-1600x900.jpg',
+        'http://advent.webtm.ru/slider/two_trees_hill_landscape-wallpaper-1600x900.jpg',
+        'http://advent.webtm.ru/slider/winding_river_aerial_view-wallpaper-1600x900.jpg'
+      ],
+      slideWidth: window.screen.width + 'px'
     };
   }
 };
